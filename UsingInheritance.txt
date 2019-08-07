@@ -1,0 +1,40 @@
+class A {
+int a=20;
+int b=10;
+void add()
+{
+int c= a+b;
+System.out.println(c);
+}
+void sub()
+{
+int c= a-b;
+System.out.println(c);
+}
+void mul()
+{
+int c= a*b;
+System.out.println(c);
+}
+
+}
+class B extends A{
+int a=20;
+int b=10;
+void div()
+{
+int c= a-b;
+System.out.println(c);
+}
+}
+
+class UsingInhertiance
+{
+B obj = new B();
+obj.add();
+obj.div();
+
+
+
+
+}
